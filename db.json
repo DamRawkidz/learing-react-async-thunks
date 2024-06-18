@@ -1,5 +1,34 @@
 {
-    "users": [],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": "1",
+      "name": "Myra"
+    },
+    {
+      "id": "08d3",
+      "name": "Dave Abshire"
+    },
+    {
+      "id": "3053",
+      "name": "Terry Brown"
+    },
+    {
+      "id": "c75c",
+      "name": "Christy O'Conner"
+    },
+    {
+      "id": "b946",
+      "name": "Courtney King"
+    },
+    {
+      "id": "75a6",
+      "name": "Marsha Hammes"
+    },
+    {
+      "id": "d831",
+      "name": "Miss Darryl Ledner"
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
