@@ -1,13 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { fetchUsers } from "../thunks/fetchUsers";
 import { addUser } from "../thunks/addUser";
+import { removerUser } from "../thunks/removerUser";
 
 const userSlice =  createSlice({
     name: 'users',
     initialState: {
         data: [],
         isloding: false,
-        error: null
+        error: null,
+
     },
     reducers: {
 
@@ -27,8 +29,7 @@ const userSlice =  createSlice({
         
 
         builder.addCase(addUser.pending,(state, action) => {
-            state.isloding = true;
-            
+            state.isloding = true;            
         })
 
         builder.addCase(addUser.fulfilled, (state, action) => {
@@ -37,6 +38,22 @@ const userSlice =  createSlice({
         })
 
         builder.addCase(addUser.rejected, (state, action) => {
+            state.isloding  = false
+            state.error = null
+        })
+
+
+        builder.addCase(removerUser.pending, (state, action) => {
+            state.isloding = true;
+            
+        })
+        builder.addCase(removerUser.fulfilled,(state, action) => {
+            state.isloding = false
+            state.data = state.data.filter((user: any) => {
+                return user.id !== (action.payload as any).id
+            })
+        })
+        builder.addCase(removerUser.rejected, (state, action) => {
             state.isloding  = false
             state.error = null
         })
