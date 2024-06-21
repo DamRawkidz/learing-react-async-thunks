@@ -23,8 +23,18 @@
     {
       "id": "d831",
       "name": "Miss Darryl Ledner"
+    },
+    {
+      "id": 1,
+      "name": "Phet"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    }
+  ],
   "photos": []
 }
