@@ -25,15 +25,20 @@
       "name": "Miss Darryl Ledner"
     },
     {
-      "id": 1,
+      "id": "1",
       "name": "Phet"
     }
   ],
   "albums": [
     {
-      "id": 10,
+      "id": "10",
       "title": "Hiking Trip",
       "userId": 1
+    },
+    {
+      "id": "aa4e",
+      "userId": "1",
+      "title": "Fantastic Rubber Ball"
     }
   ],
   "photos": []
