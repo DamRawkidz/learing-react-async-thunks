@@ -31,14 +31,49 @@
   ],
   "albums": [
     {
-      "id": "10",
-      "title": "Hiking Trip",
-      "userId": 1
-    },
-    {
       "id": "aa4e",
       "userId": "1",
       "title": "Fantastic Rubber Ball"
+    },
+    {
+      "id": "0cef",
+      "userId": "d831",
+      "title": "Awesome Bronze Shoes"
+    },
+    {
+      "id": "1e4b",
+      "userId": "d831",
+      "title": "Rustic Fresh Sausages"
+    },
+    {
+      "id": "319b",
+      "userId": "1",
+      "title": "Refined Concrete Keyboard"
+    },
+    {
+      "id": "8daf",
+      "userId": "d831",
+      "title": "Practical Wooden Ball"
+    },
+    {
+      "id": "f75e",
+      "userId": "1",
+      "title": "Tasty Soft Sausages"
+    },
+    {
+      "id": "14be",
+      "userId": "d831",
+      "title": "Handcrafted Frozen Soap"
+    },
+    {
+      "id": "fc53",
+      "userId": "1",
+      "title": "Bespoke Metal Shoes"
+    },
+    {
+      "id": "7284",
+      "userId": "08d3",
+      "title": "Generic Wooden Table"
     }
   ],
   "photos": []
