@@ -7,7 +7,7 @@ import ExpandablePanel from "./ExpandasblePanel";
 import Skeleton from "./skeleton";
 
 function AlbumsList({  user }: any){
-    const { data, error, isLoading} = useFeatchAlbumsQuery(user)
+    const { data, error, isFetching} = useFeatchAlbumsQuery(user)
     const [addAlbum, result] = useAddAlbumMutation()
 
     const heandleAddAlbum = () => {
@@ -15,7 +15,7 @@ function AlbumsList({  user }: any){
     }
 
     let content;
-    if(isLoading){
+    if(isFetching){
         content = <Skeleton times={3} />
     } else if(error) {
         content = <div>Error loading albums.</div>

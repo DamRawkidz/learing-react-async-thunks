@@ -46,19 +46,9 @@
       "title": "Rustic Fresh Sausages"
     },
     {
-      "id": "319b",
-      "userId": "1",
-      "title": "Refined Concrete Keyboard"
-    },
-    {
       "id": "8daf",
       "userId": "d831",
       "title": "Practical Wooden Ball"
-    },
-    {
-      "id": "f75e",
-      "userId": "1",
-      "title": "Tasty Soft Sausages"
     },
     {
       "id": "14be",
@@ -66,15 +56,21 @@
       "title": "Handcrafted Frozen Soap"
     },
     {
-      "id": "fc53",
-      "userId": "1",
-      "title": "Bespoke Metal Shoes"
-    },
-    {
       "id": "7284",
       "userId": "08d3",
       "title": "Generic Wooden Table"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "7eda",
+      "albumId": "aa4e",
+      "url": "https://loremflickr.com/150/150/abstract?lock=88172"
+    },
+    {
+      "id": "7ea5",
+      "albumId": "aa4e",
+      "url": "https://loremflickr.com/150/150/abstract?lock=89630"
+    }
+  ]
 }
